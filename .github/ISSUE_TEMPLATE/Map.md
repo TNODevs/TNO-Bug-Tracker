@@ -1,6 +1,6 @@
 ---
 name: Map
-about: For issues relating to the map, unit placements, and victory point locations :nepmagic:
+about: For issues relating to the map, unit placements, and victory point locations
 title: Country Affected - Short Description of Issue
 labels: Map
 assignees: ''
