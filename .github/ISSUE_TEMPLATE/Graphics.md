@@ -2,7 +2,7 @@
 name: Graphics
 about: For issues about 2D and 3D graphics, such as focus icons, unit models, and flags
 title: Country Affected - Short Description of Issue
-labels: Bug
+labels: GFX/Graphics
 assignees: ''
 ---
 
