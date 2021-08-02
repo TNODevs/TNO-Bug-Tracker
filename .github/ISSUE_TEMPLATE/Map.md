@@ -2,7 +2,7 @@
 name: Map
 about: For issues relating to the map, unit placements, and victory point locations :nepmagic:
 title: Country Affected - Short Description of Issue
-labels: Bug
+labels: Map
 assignees: ''
 ---
 
