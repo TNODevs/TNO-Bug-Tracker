@@ -2,7 +2,7 @@
 name: Crash to Desktop
 about: For issues that cause the game to crash to desktop (CTD)
 title: Country Affected - Short Description of Issue
-labels: Bug
+labels: Crash
 assignees: ''
 ---
 
