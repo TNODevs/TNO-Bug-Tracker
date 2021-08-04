@@ -12,6 +12,9 @@ assignees: ''
 - TNO Version:
 - Any other mods in use:
 
-**Longer Description of Issue:**
+**List the Loc issues down below (preferably with screenshot attached below with event id / focus id shown):**
 
-**Screenshots:**
+- [ ] 1. 
+(Screenshot here)
+- [ ] 2. 
+(Screenshot here)
