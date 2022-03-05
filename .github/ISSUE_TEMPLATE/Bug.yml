@@ -11,21 +11,21 @@ body:
     validations:
       required: true
   - type: input
-    id: HOI4 version
+    id: HOI4_version
     attributes:
       label: HOI4 version
       placeholder: Do NOT write latest version. ex. 1.11.7
     validations:
       required: true
   - type: input
-    id: TNO version
+    id: TNO_version
     attributes:
       label: TNO version
       placeholder: Do NOT write latest version. ex. 1.2.1b
     validations:
       required: true
   - type: input
-    id: other mods
+    id: other_mods
     attributes:
       label: Do you have other mods in use?
       description: "Write none if you only have TNO enabled."
