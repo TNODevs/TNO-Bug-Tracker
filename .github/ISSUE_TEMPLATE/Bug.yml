@@ -114,20 +114,3 @@ body:
       description: Add any other context about the problem here
     validations:
       required: false
-
-name: Bug report
-description: template for bug reports
-title: '[Bug]: '
-body:
-  - type: dropdown
-    id: I
-    attributes:
-      label: a
-      description: b
-      multiple: true
-      options:
-        - '1'
-        - '2'
-        - '3'
-
-
