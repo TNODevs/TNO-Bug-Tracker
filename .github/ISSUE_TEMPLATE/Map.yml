@@ -1,7 +1,7 @@
-name: Graphics
-description: For issues about 2D and 3D graphics, such as focus icons, unit models, and flags
-title: Country Affected - Short Description of Issue
-labels: GFX/Graphics
+name: Map
+description: For issues relating to the map, unit placements, and victory point locations
+title: "[Bug]: Country Affected - Short Description of Issue"
+labels: Bug
 
 body:
   - type: input
@@ -73,9 +73,9 @@ body:
   - type: textarea
     id: bugdesc
     attributes:
-      label: Describe the GFX issue
+      label: Describe the bug
       description: |
-        A clear and concise description of what the GFX issue is
+        A clear and concise description of what the bug is
     validations:
       required: true
   - type: textarea

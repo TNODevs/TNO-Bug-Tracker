@@ -1,8 +1,7 @@
 name: Crash to Desktop
-about: For issues that cause the game to crash to desktop (CTD)
-title: Country Affected - Short Description of Issue
+description: For issues that cause the game to crash to desktop (CTD)
+title: "Country Affected - Short Description of Issue"
 labels: Crash
-assignees: ''
 
 body:
   - type: input
@@ -34,29 +33,43 @@ body:
       placeholder: ex. Custom Country Paths Mod
     validations:
       required: true
-  - type: input
+  - type: dropdown
     id: steam
     attributes:
       label: Were you using Steam?
-      placeholder: Yes / No
+      options:
+        - 'Yes'
+        - 'No'
     validations:
       required: true
-  - type: input
+  - type: dropdown
     id: expansion
     attributes:
       label: Which major expansions do you NOT have?
-      description: "Write nonone if you have all major expansions enabled."
-      placeholder: ex. TFV, DOD, NSB
+      description: Click all expansions that you don't have.
+      multiple: true
+      options:
+        - 'I have all'
+        - 'TFV'
+        - 'DOD'
+        - 'WTT'
+        - 'MTG'
+        - 'LAR'
+        - 'NSB'
     validations:
       required: true
   - type: textarea
-    id: logs
+    id: files
     attributes:
-      label: Log Files
-      description: "Link(s) to any log files that may help debug your crash"
+      label: Files
+      description: |
+        Link(s) to any log files / save games that may help debug your issue.
+        The most important ones are game.log and error.log
+        Log files can be found under Documents\Paradox Interactive\Hearts of Iron IV\logs
+        Save games can be found under Documents\Paradox Interactive\Hearts of Iron IV\save games
       placeholder: 
     validations:
-      required: false
+      required: true
   - type: textarea
     id: bugdesc
     attributes:
@@ -69,12 +82,12 @@ body:
     id: reproduce
     attributes:
       label: Steps to reproduce / Cause of the crash
-      description: Tell us how we can reproduce the crash
+      description: Tell us how we can reproduce / fix this crash
       placeholder: |
         1. Go to ...  
         2. Click on ...  
         3. Scroll down to ...  
-        4. The game crashes
+        4. See error
     validations:
       required: true
   - type: textarea

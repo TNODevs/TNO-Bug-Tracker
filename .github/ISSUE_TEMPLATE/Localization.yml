@@ -1,17 +1,7 @@
 name: Localization
-about: For small issues related to spelling, grammar, and other typos. NOTE - If text is partially missing or absent entirely, please fill out a Bug issue type instead
-title: Country Affected - Short Description of Issue
+description: For small issues related to spelling, grammar, and other typos. NOTE - If text is partially missing or absent entirely, please fill out a Bug issue type instead
+title: "Country Affected - Short Description of Issue"
 labels: Localization
-assignees: ''
-
-**Questions**
-
-- HOI4 Version:
-- TNO Version:
-- Any other mods in use:
-
-**List the Loc issues down below (preferably with screenshot attached below with event id / focus id shown):**
-
 
 body:
   - type: input
@@ -36,13 +26,51 @@ body:
       placeholder: ex. Custom Country Paths Mod
     validations:
       required: true
+  - type: dropdown
+    id: steam
+    attributes:
+      label: Were you using Steam?
+      options:
+        - 'Yes'
+        - 'No'
+    validations:
+      required: true
+  - type: dropdown
+    id: expansion
+    attributes:
+      label: Which major expansions do you NOT have?
+      description: Click all expansions that you don't have.
+      multiple: true
+      options:
+        - 'I have all'
+        - 'TFV'
+        - 'DOD'
+        - 'WTT'
+        - 'MTG'
+        - 'LAR'
+        - 'NSB'
+    validations:
+      required: true
+  - type: textarea
+    id: files
+    attributes:
+      label: Files
+      description: |
+        Link(s) to any log files / save games that may help debug your issue.
+        The most important one is error.log
+        Log files can be found under Documents\Paradox Interactive\Hearts of Iron IV\logs
+        Save games can be found under Documents\Paradox Interactive\Hearts of Iron IV\save games
+      placeholder: 
+    validations:
+      required: false
   - type: textarea
     id: bugdesc
     attributes:
       label: List the loc issues below
       description: |
-        List the Loc issues down below (preferably with screenshot attached below with event id / focus id shown):
-      placeholder: 
+        List the Loc issues down below (preferably with screenshot attached below with event id / focus id shown).
+        Please limit the list to 100 issues. Create another bug report if more are found.
+      placeholder: |
         - [ ] 1. 
         (Screenshot here)
         - [ ] 2. 

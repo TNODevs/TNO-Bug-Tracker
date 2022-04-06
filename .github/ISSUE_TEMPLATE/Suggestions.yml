@@ -1,0 +1,66 @@
+name: Suggestions
+description: For requesting reasonable and specific changes to TNO. NOTE - Reasonable and specific changes only
+title: "Country Affected - Short Description of Suggestion"
+labels: Suggestion
+
+body:
+  - type: markdown
+    attributes:
+      value: There is no guarantee that requested suggestions will be implemented. Do not request lore changes or sweeping adjustments to gameplay or content. Suggestions may be closed at any time. If you can't explain your suggestion succinctly in under a paragraph, it likely isn't something that would be accepted.
+  - type: input
+    id: HOI4_version
+    attributes:
+      label: HOI4 version
+      placeholder: Do NOT write latest version. ex. 1.11.7
+    validations:
+      required: true
+  - type: input
+    id: TNO_version
+    attributes:
+      label: TNO version
+      placeholder: Do NOT write latest version. ex. 1.2.1b
+    validations:
+      required: true
+  - type: dropdown
+    id: expansion
+    attributes:
+      label: Which major expansions do you NOT have?
+      description: Click all expansions that you don't have.
+      multiple: true
+      options:
+        - 'I have all'
+        - 'TFV'
+        - 'DOD'
+        - 'WTT'
+        - 'MTG'
+        - 'LAR'
+        - 'NSB'
+  - type: textarea
+    id: suggestiondesc
+    attributes:
+      label: Describe your suggestion
+      description: |
+        A clear and concise description of what you suggests
+    validations:
+      required: true
+  - type: textarea
+    id: justification
+    attributes:
+      label: Justifications
+      description: Tell us why this change is necessary
+    validations:
+      required: true
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots
+      description: If applicable, add screenshots to help explain your suggestion
+    validations:
+      required: false
+  - type: textarea
+    id: additional
+    attributes:
+      label: Additional information
+      description: Add any other context about the suggestion here
+    validations:
+      required: false
