@@ -30,7 +30,7 @@ body:
     attributes:
       label: Do you have other mods in use?
       description: "Write none if you only have TNO enabled."
-      placeholder: ex. Custom Country Paths Mod
+      placeholder: ex. The Moe Order
     validations:
       required: true
   - type: dropdown
