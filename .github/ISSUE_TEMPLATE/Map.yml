@@ -8,21 +8,21 @@ body:
     id: OS
     attributes:
       label: Operating System
-      placeholder: ex. Windows 11, macOS Monterey
+      placeholder: Windows 10
     validations:
       required: true
   - type: input
     id: HOI4_version
     attributes:
       label: HOI4 version
-      placeholder: Do NOT write latest version. ex. 1.11.7
+      placeholder: 1.12.6
     validations:
       required: true
   - type: input
     id: TNO_version
     attributes:
       label: TNO version
-      placeholder: Do NOT write latest version. ex. 1.2.1b
+      placeholder: 1.4.1
     validations:
       required: true
   - type: input
@@ -30,16 +30,14 @@ body:
     attributes:
       label: Do you have other mods in use?
       description: "Write none if you only have TNO enabled."
-      placeholder: ex. The Moe Order
+      placeholder: none
     validations:
       required: true
   - type: dropdown
     id: steam
     attributes:
       label: Were you using Steam?
-      options:
-        - 'Yes'
-        - 'No'
+      placeholder: yes
     validations:
       required: true
   - type: dropdown
@@ -47,16 +45,7 @@ body:
     attributes:
       label: Which major expansions do you NOT have?
       description: Click all expansions that you don't have.
-      multiple: true
-      options:
-        - 'I have all'
-        - 'TFV'
-        - 'DOD'
-        - 'WTT'
-        - 'MTG'
-        - 'LAR'
-        - 'NSB'
-        - 'BBA'
+      placeholder: 'BBA'
     validations:
       required: true
   - type: textarea
@@ -75,7 +64,7 @@ body:
     id: bugdesc
     attributes:
       label: Describe the bug
-      description: |
+      description: South Georgia has Japanese culture for some reason
         A clear and concise description of what the bug is
     validations:
       required: true
@@ -85,9 +74,9 @@ body:
       label: Steps to reproduce / Cause of the issue
       description: Tell us how we can reproduce the issue / fix this issue
       placeholder: |
-        1. Go to ...  
-        2. Click on ...  
-        3. Scroll down to ...  
+        1. Go to South Georgia  
+        2. Click on South Georgia  
+        3. Mouse over the culture display  
         4. See error
     validations:
       required: true
@@ -95,7 +84,7 @@ body:
     id: expectedBehaviour
     attributes:
       label: Expected behaviour
-      description: |
+      description: Sough Georgia should presumably be Falklander Culture
         A clear and concise description of what you expected to happen.
     validations:
       required: true
