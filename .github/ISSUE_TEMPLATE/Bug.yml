@@ -50,9 +50,6 @@ body:
       multiple: true
       options:
         - 'I have all'
-        - 'TFV'
-        - 'DOD'
-        - 'WTT'
         - 'MTG'
         - 'LAR'
         - 'NSB'
