@@ -35,6 +35,8 @@ body:
         - 'BBA'
         - 'AAT'
         - 'TOA'
+        - 'GD'
+        - 'GOE'
   - type: textarea
     id: suggestiondesc
     attributes:
