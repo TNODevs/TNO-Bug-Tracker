@@ -49,6 +49,8 @@ body:
         - 'BBA'
         - 'AAT'
         - 'TOA'
+        - 'GD'
+        - 'GOE'
     validations:
       required: true
   - type: textarea
